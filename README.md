@@ -1,20 +1,20 @@
 ## 1.7. Exercises
 
-1. Where is the bash program located on your system?
+### 1. Where is the bash program located on your system?
 
 ```console
 $ which bash
 /bin/bash
 ```
 
-2. Use the --version option to find out which version you are running.
+### 2. Use the --version option to find out which version you are running.
 
 ```console
 $ bash --version | head -1 | awk '{print$4}'
 4.4.20(1)-release
 ```
 
-3. Which shell configuration files are read when you login to your system using the graphical user interface and then opening a terminal window?
+### 3. Which shell configuration files are read when you login to your system using the graphical user interface and then opening a terminal window?
 
 When you login in GUI you don't get shell, instead you get session manager or window manager.
 
@@ -24,7 +24,7 @@ The following file read because you are opening non-login interactive shell :
 ~/.bashrc
 ```
 
-4.  Are the following shells interactive shells? Are they login shells?
+### 4.  Are the following shells interactive shells? Are they login shells?
 
 *Interactive means you can enter commands.  
 Login shell means that you got the shell after authenticating to the system, usually by giving your user name and password.*
@@ -55,11 +55,11 @@ Non-interactive, non-login
 
 Interactive, login
 
-5. Can you explain why bash does not exit when you type Ctrl+C on the command line?
+### 5. Can you explain why bash does not exit when you type Ctrl+C on the command line?
 
 Ctrl+C is the interrupt signal. Terminal window is interactive shell not the process.
 
-6. Display directory stack content  
+### 6. Display directory stack content  
 
 The directory stack is a list of directories you have previously navigated to.
 
@@ -69,12 +69,12 @@ The directory stack is a list of directories you have previously navigated to.
 ```
 [Working with the directory stack in linux](https://www.putorius.net/pushd-popd-linux.html)
 
-7. If it is not yet the case, set your prompt so that it displays your location in the file system hierarchy, for instance add this line to ~/.bashrc:
+### 7. If it is not yet the case, set your prompt so that it displays your location in the file system hierarchy, for instance add this line to ~/.bashrc:
 
 ```
 export PS1="\u@\h \w> "
 ```
-8. Display hashed commands for your current shell session.
+### 8. Display hashed commands for your current shell session.
 
 ```console
 $ hash
