@@ -84,4 +84,15 @@ hits	command
    3	/bin/ls
 ```
 
+### 9. How many processes are currently running on your system? Use ps and wc, the first line of output of ps is not a process!
 
+```console
+$ ps aufxS | tail -n +2 | wc -l
+319
+
+### 10. How to display the system hostname? Only the name, nothing more!
+
+```console
+hostname
+```
+```
