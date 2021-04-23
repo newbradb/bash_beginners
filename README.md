@@ -102,4 +102,14 @@ hostname
 [Script](https://github.com/newbradb/bash_beginners/blob/main/script1.sh) that display the path to your homedirectory and the terminal type that you are using.
 Additionally it shows all the services started up in runlevel 3 on your system.
 
+Adding the execute permissions :
 
+```console
+chmod +x script1.sh
+```
+
+Run in the debug mode :
+
+```console
+bash -x script1.sh
+```
