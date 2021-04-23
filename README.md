@@ -89,10 +89,17 @@ hits	command
 ```console
 $ ps aufxS | tail -n +2 | wc -l
 319
+````
 
 ### 10. How to display the system hostname? Only the name, nothing more!
 
 ```console
 hostname
 ```
-```
+
+## 2.5 Exercises
+
+[Script](https://github.com/newbradb/bash_beginners/blob/main/script1.sh) that display the path to your homedirectory and the terminal type that you are using.
+Additionally it shows all the services started up in runlevel 3 on your system.
+
+
