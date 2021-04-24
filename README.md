@@ -1,3 +1,5 @@
+[google.com]
+
 ## 1.7. Exercises
 
 ### 1. Where is the bash program located on your system?
